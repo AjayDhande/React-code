@@ -1,0 +1,4 @@
+define ['backbone'], (Backbone) ->
+  class MobileHeaderModel extends Backbone.Model
+  	initialize: ->
+        @set 'header_logo': false,  'home_logo': false, 'back_icon': false, 'header_text': '', search: false
